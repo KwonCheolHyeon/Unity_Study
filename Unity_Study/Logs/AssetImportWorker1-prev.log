@@ -15,7 +15,7 @@ D:/gaME/Unity_Study/Unity_Study
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64290
+64918
 Successfully changed project path to: D:/gaME/Unity_Study/Unity_Study
 D:/gaME/Unity_Study/Unity_Study
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/gaME/Unity_Study/Unity_Study
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8440] Host "[IP] 172.30.1.37 [Port] 0 [Flags] 2 [Guid] 3311225885 [EditorId] 3311225885 [Version] 1048832 [Id] WindowsEditor(7,Metal) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11436] Host "[IP] 172.30.1.37 [Port] 0 [Flags] 2 [Guid] 2526483239 [EditorId] 2526483239 [Version] 1048832 [Id] WindowsEditor(7,Metal) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8440] Host "[IP] 172.30.1.37 [Port] 0 [Flags] 2 [Guid] 3311225885 [EditorId] 3311225885 [Version] 1048832 [Id] WindowsEditor(7,Metal) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11436] Host "[IP] 172.30.1.37 [Port] 0 [Flags] 2 [Guid] 2526483239 [EditorId] 2526483239 [Version] 1048832 [Id] WindowsEditor(7,Metal) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 11.33 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 11.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path D:/Unity/LFS/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'D:/Unity/LFS/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/LFS/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/LFS/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/LFS/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/LFS/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004234 seconds.
-- Loaded All Assemblies, in  0.417 seconds
+Registered in 0.004224 seconds.
+- Loaded All Assemblies, in  0.384 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 236 ms
+Android Extension - Scanning For ADB Devices 255 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.515 seconds
-Domain Reload Profiling: 932ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.569 seconds
+Domain Reload Profiling: 953ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (173ms)
-		LoadAssemblies (149ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (127ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (170ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (153ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (135ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (515ms)
+	FinalizeReload (569ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (466ms)
+		SetupLoadedEditorAssemblies (511ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (327ms)
+			InitializePlatformSupportModulesInManaged (358ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 932ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.586 seconds
-Refreshing native plugins compatible for Editor in 3.82 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.658 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,48 +127,78 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.507 seconds
-Domain Reload Profiling: 1092ms
-	BeginReloadAssembly (136ms)
+- Finished resetting the current domain, in  0.578 seconds
+Domain Reload Profiling: 1236ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (373ms)
-		LoadAssemblies (273ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (315ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (139ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (507ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (578ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (367ms)
+		SetupLoadedEditorAssemblies (418ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (259ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (244.4 KB). Loaded Objects now: 4475.
+Unloading 4018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.2 KB). Loaded Objects now: 4476.
 Memory consumption went from 149.3 MB to 149.1 MB.
-Total: 3.290800 ms (FindLiveObjects: 0.316000 ms CreateObjectMapping: 0.107800 ms MarkObjects: 2.656100 ms  DeleteObjects: 0.210200 ms)
+Total: 4.537500 ms (FindLiveObjects: 0.503300 ms CreateObjectMapping: 0.130000 ms MarkObjects: 3.583300 ms  DeleteObjects: 0.318800 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1299918.313083 seconds.
+  path: Assets/Script/UI_Control_Rpg_Script.cs
+  artifactKey: Guid(7668efefc8a3de84c839be056b6c4c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI_Control_Rpg_Script.cs using Guid(7668efefc8a3de84c839be056b6c4c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810be58a31c52743b54b3a5f11b7299f') in 0.002585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (195.2 KB). Loaded Objects now: 4476.
+Memory consumption went from 85.2 MB to 85.0 MB.
+Total: 3.158600 ms (FindLiveObjects: 0.355700 ms CreateObjectMapping: 0.112800 ms MarkObjects: 2.554000 ms  DeleteObjects: 0.135400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -185,9 +215,230 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1299246.307616 seconds.
-  path: Assets/Asset
-  artifactKey: Guid(489e99dfecfffc048af1962b1925b5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset using Guid(489e99dfecfffc048af1962b1925b5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64359f468f8a9a07c9753eedbb87ccca') in 0.002450 seconds
+  Time since last request: 402.055506 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896ca77e6b6043ff954e58dbd0df98fa') in 0.152233 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 319.729712 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bfa7714d3af2bc65d3dd065247f62d') in 0.077876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bfcda67420d6d4e50b9bd5398f6d85') in 0.022913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.361729 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/arrowBrown_right.png
+  artifactKey: Guid(367f0dbaf7910234987f8e521ee027cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/arrowBrown_right.png using Guid(367f0dbaf7910234987f8e521ee027cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0952c587c5a19ddc7c5d36b3b1aa87b6') in 0.027197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/barBlue_horizontalBlue.png
+  artifactKey: Guid(8ee0f9456e693c24e8cde5740cf758ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/barBlue_horizontalBlue.png using Guid(8ee0f9456e693c24e8cde5740cf758ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c817742b57793e72813a1a127880e730') in 0.016190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/barBlue_horizontalLeft.png
+  artifactKey: Guid(d39e7f658cfbe8b43932180dd12f4ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/barBlue_horizontalLeft.png using Guid(d39e7f658cfbe8b43932180dd12f4ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a97c0fd983117fa35ac7087ddfc74c') in 0.019065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/arrowSilver_right.png
+  artifactKey: Guid(ed1e9b01fbee54448afa799e94dccecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/arrowSilver_right.png using Guid(ed1e9b01fbee54448afa799e94dccecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facc95784dcd27b7da15dadd769ea9db') in 0.020725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 46.248179 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/panelInset_blue.png
+  artifactKey: Guid(1aaad9a0b0fe8e94a93621715fa0938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/panelInset_blue.png using Guid(1aaad9a0b0fe8e94a93621715fa0938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ecffad9b07f67c535f3c11d5d7f807') in 0.016951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.458349 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/panel_brown.png
+  artifactKey: Guid(6b3b1cb59b8c7f84d97d207df32a10ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/panel_brown.png using Guid(6b3b1cb59b8c7f84d97d207df32a10ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ad006ab97a380f369e74f396f8699e') in 0.018828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/iconCross_beige.png
+  artifactKey: Guid(34f114ef055e54e46b85024d045666ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/iconCross_beige.png using Guid(34f114ef055e54e46b85024d045666ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0d5b9b0cee16ee752c9e5209f0cb2c') in 0.016532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001177 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/iconCircle_blue.png
+  artifactKey: Guid(2374f09baf795a04ab2e54ae29fb4772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/iconCircle_blue.png using Guid(2374f09baf795a04ab2e54ae29fb4772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5944f7328e4c10271ea318165b9460a1') in 0.016810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/iconCircle_grey.png
+  artifactKey: Guid(34ef528f1e37f074b9a2e04ac4e4cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/iconCircle_grey.png using Guid(34ef528f1e37f074b9a2e04ac4e4cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e496d6b677506e955894058aceb3baa4') in 0.014326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.168622 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/iconCheck_bronze.png
+  artifactKey: Guid(84c2eb78027e55d47b0130db5fe52fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/iconCheck_bronze.png using Guid(84c2eb78027e55d47b0130db5fe52fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8f1fd34280955b926c91351683329f') in 0.015036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/cursorSword_bronze.png
+  artifactKey: Guid(6deba7291f263f14da09e397e98187ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/cursorSword_bronze.png using Guid(6deba7291f263f14da09e397e98187ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e6bcb54955dd666dc72149bbab7d5d') in 0.017319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/cursorSword_silver.png
+  artifactKey: Guid(59b20d5bd413bfa4f82a88b875870257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/cursorSword_silver.png using Guid(59b20d5bd413bfa4f82a88b875870257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0752dc976c5b50fb0d84cd236e424df6') in 0.014320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/cursorGauntlet_blue.png
+  artifactKey: Guid(1ca87ff56f14c464da86c6f2061736c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/cursorGauntlet_blue.png using Guid(1ca87ff56f14c464da86c6f2061736c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba39ab9926614108e9a984865a61980') in 0.016475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/cursorGauntlet_grey.png
+  artifactKey: Guid(acc648f1b7674cf4c91067bc5b579826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/cursorGauntlet_grey.png using Guid(acc648f1b7674cf4c91067bc5b579826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3240c4778726d2fe0569c84dbf72b7') in 0.013669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/cursorGauntlet_bronze.png
+  artifactKey: Guid(335820a5b19b0674d9934d9a8b2adcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/cursorGauntlet_bronze.png using Guid(335820a5b19b0674d9934d9a8b2adcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479a4447f450fc7d11b5fbd260199103') in 0.014873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/buttonRound_brown.png
+  artifactKey: Guid(eb44459aa2522e2458965515fe9b3c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/buttonRound_brown.png using Guid(eb44459aa2522e2458965515fe9b3c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d76a2ff886e44a6de9ae63d24d808f') in 0.020293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.130583 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/buttonLong_grey_pressed.png
+  artifactKey: Guid(3f1544c229a252f479f37a08d91e38b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/buttonLong_grey_pressed.png using Guid(3f1544c229a252f479f37a08d91e38b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b171ea6dd0d2dc745719529b7ca8543a') in 0.018609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/buttonLong_beige_pressed.png
+  artifactKey: Guid(c79687316e03d614781975168fce2cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/buttonLong_beige_pressed.png using Guid(c79687316e03d614781975168fce2cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a946a752cf36d7ab3577a41d24f3a8b6') in 0.014750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011239 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/barRed_verticalTop.png
+  artifactKey: Guid(5b346b37fcdc9014bb94052b57f148fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/barRed_verticalTop.png using Guid(5b346b37fcdc9014bb94052b57f148fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec5d0bbd5612f8f53e9db7f842f8bc2') in 0.017372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/barYellow_verticalTop.png
+  artifactKey: Guid(c6fd2fd06275a664aaef8048749f74c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/barYellow_verticalTop.png using Guid(c6fd2fd06275a664aaef8048749f74c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac7d11d62a56a2bbe482fdc4fd89a86') in 0.032678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/barGreen_horizontalLeft.png
+  artifactKey: Guid(04dd21f2257d37f4fbf34e1b23039682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/barGreen_horizontalLeft.png using Guid(04dd21f2257d37f4fbf34e1b23039682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dcd95d9812c562d84fa24e9908a776') in 0.036214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/barGreen_verticalTop.png
+  artifactKey: Guid(1abceb6ebad09564faadcbfa2498735e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/barGreen_verticalTop.png using Guid(1abceb6ebad09564faadcbfa2498735e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e0e342bcbceffdcdcbfa70831d064e') in 0.016331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/barRed_verticalMid.png
+  artifactKey: Guid(d9ccd91e17e907644bd0636e386e42b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/barRed_verticalMid.png using Guid(d9ccd91e17e907644bd0636e386e42b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88269be4cffc106c2a721693f1989d27') in 0.012642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/barYellow_horizontalRight.png
+  artifactKey: Guid(801b6c993f2768644a0e991640d9814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/barYellow_horizontalRight.png using Guid(801b6c993f2768644a0e991640d9814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b83e45d60c8a2912bf8bb6a812a1e74') in 0.029809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.078065 seconds.
+  path: Assets/Asset/Kenney/RPG UI/RPGUI/barBlue_verticalMid.png
+  artifactKey: Guid(80288ac8177fa3142855490f75e31c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Kenney/RPG UI/RPGUI/barBlue_verticalMid.png using Guid(80288ac8177fa3142855490f75e31c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861f8f361a6d16e1063a74a690044ecd') in 0.013660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
